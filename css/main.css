@@ -59,11 +59,13 @@ header {
 h1 {
     font-size: 52px;
     letter-spacing: 5px;
+    padding-left: 50px;
 }
 
 header .fas {
     font-size: 16px;
     color: black;
+    padding-left: 85px;
 }
 
 nav {
@@ -76,20 +78,20 @@ nav ul li {
 }
 
 nav ul li a {
-    color: pink;
+    color: #fc815c;
     font-size: 24px;
     text-decoration: none;
     list-style: none;
-    padding-left: 75px;
+    padding-left: 25px;
 }
 
 nav ul li a:hover {
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
 nav ul li a:visited {
-    color: #fc815c;
+    color: #ffc0cb;
     text-decoration: none;
 }
 
