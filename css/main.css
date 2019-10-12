@@ -1,0 +1,161 @@
+body {
+    font-family: "Text Me One", sans-serif;
+    font-size: 20px;
+    color: #222222;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Vidaloka", serif;
+    color: black; 
+}
+
+header {
+    height: 150px;
+}
+
+#about {
+    height: 650px;
+    background-color: #fc815c;
+    text-align: center;
+}
+
+#work {
+    height: 450px;
+    text-align: center;
+}
+
+#contact {
+    height: 300px;
+    background-color: #fc815c;
+}
+
+/*grid*/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 500px;
+    float: left;
+    padding-left: 100px;
+}
+
+.third-width {
+    width: 350px;
+    float: left;
+    padding-left: 50px;
+}
+
+.fourth-width {
+    width: 250px;
+    padding: 25px;
+    float: left;
+}
+
+/*----*/
+
+h1 {
+    font-size: 52px;
+    letter-spacing: 5px;
+}
+
+header .fas {
+    font-size: 16px;
+    color: black;
+}
+
+nav {
+    float: right;
+    padding: -25px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: pink;
+    font-size: 24px;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 75px;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: #fc815c;
+    text-decoration: none;
+}
+
+#about h2 {
+    padding-top: 50px;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 5px;
+    -webkit-text-stroke: .01px #eef1e8;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#about img {
+    border-radius: 50%;
+    border: 8px solid #f9faf7;
+}
+
+#about img:hover {
+    background: url("img/portrait.jpg") no-repeat;
+    filter: saturate(0%) blur(5px);
+    color: none;
+}
+
+#work h2 {
+    padding-top: 50px 0;
+    font-size: 48px;
+    color: #fc815c;
+    letter-spacing: 5px;
+    clear: both;
+}
+
+#work img {
+    border: 3px #fdd3c7 solid;
+}
+
+#contact h2 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: .01px #eef1e8;
+    font-size: 36px;
+}
+
+#contact p {
+    color: white;
+    font-size: 24px;
+    text-align: right;
+    padding-right: -10px;
+}
+
+#condensed {
+    letter-spacing: -2px;
+}
+
+footer .fab, .fas {
+    padding: 15px 5px 10px 5px;
+    color: white;
+    font-size: 42px;
+    text-align: left;
+}
+
+

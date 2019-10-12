@@ -1,0 +1,153 @@
+/*base styles*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+}
+
+span {
+    color: #79d279;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+    text-decoration-style: underline;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 1em 0 0 0.5em;
+}
+
+h2 {
+    font-size: 1em;
+    padding-left: 1em;
+    color: #79d279;
+}
+
+h3 {
+    font-size: .75em;
+    font-weight: 800;
+}
+
+p {
+    font-size: .85em;
+    font-weight: bold;
+    letter-spacing: .01em;
+    line-height: 1.85em;
+}
+
+#locations p, #locations h3, #reviews p, #reviews h3 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*grid*/
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    border-top: solid #d9d9d9 .05em;
+    border-bottom: solid #d9d9d9 .05em;
+    height: 200px;
+    width: 32%;
+    float: left;
+}
+
+nav {
+    float: right;
+    padding-top: 3em;
+} 
+
+img {
+    clear: both;
+    height: auto;
+    padding: 1em;
+    width: 97%;
+}
+
+#about p {
+    letter-spacing: 0.025em;
+    padding-left: 1.25em;
+    padding-right: 4em;
+}
+
+#menu {
+    margin-left: 1em;
+    border-right: solid #d9d9d9 .05em;
+}
+
+#reviews {
+    border-right: solid #d9d9d9 .05em;
+}
+
+#reviews p, #reviews h3 {
+    padding-left: 1.5em;
+    padding-right: 5em;
+}
+
+#locations {
+    margin-right: 1em;
+}
+
+#locations p {
+    text-align: justify;
+}
+
+#locations p, #locations h3 {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding-top: 1em;
+}
+
+/*special styles*/
+
+nav ul li {
+    display: inline-block;
+}   
+
+nav ul li a {
+    color: #79d279;
+    font-size: .75em;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 1.75em;
+} 
+
+#menu a {
+    color: #79d279;
+    line-height: 2.75em;
+    text-decoration: none;
+}
+
+#content p {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#content span {
+    font-family: "Dancing Script", cursive; 
+    text-transform: none;
+}
