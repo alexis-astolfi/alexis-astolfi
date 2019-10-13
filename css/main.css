@@ -122,7 +122,7 @@ nav ul li a:visited {
 #about img {
     border-radius: 50%;
     border: 8px solid #f9faf7;
-    filter: saturate(0%);
+    filter: saturate(0%); 
 }
 
 #about img:hover {
