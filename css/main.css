@@ -9,6 +9,11 @@ h1, h2, h3, h4 {
     color: black; 
 }
 
+p::selection {
+    color: white;
+    background: dimgray;
+}
+
 header {
     height: 150px;
 }
