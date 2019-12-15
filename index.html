@@ -1,79 +1,125 @@
 <!doctype HTML>
-<html lang="en">
+<html class="no-js" lang="">
     <head>
+        <meta charset="utf-8">
         <title>Alexis Astolfi | folio</title>
-        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#fafafa">
+      
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/normalize.css">
-        <link href="https://fonts.googleapis.com/css?family=Text+Me+One|Vidaloka&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Vidaloka&display=swap&subset=latin-ext" rel="stylesheet">
         <link href="css/all.css" rel="stylesheet">
     </head>
     <body>
+        <!--start header-->
         <header>
-            <div class="full-width">
-            <nav>
-                <ul>
-                <li><a href="#">home.</a></li>
-                <li><a href="#about">about.</a></li>
-                <li><a href="#work">folio.</a></li>
-                <li><a href="#contact">let's chat.</a></li>
-                </ul>
-            </nav>
+            <div class="content-wrapper">
             <h1>Alexis Astolfi</h1> 
-            <p><i class="fas fa-globe-americas"></i> a developer with a keen sense of style, form, and simplicity.</p>
+            <!--<p><i class="fas fa-globe-americas"></i> a developer with a keen sense of style, form, and simplicity.</p>-->
+            <nav>
+                    <ul>
+                    <li><a href="#">home.</a></li>
+                    <li><a href="#about">about.</a></li>
+                    <li><a href="#work">folio.</a></li>
+                    <li><a href="#contact">let's chat.</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <main>
-            <section id="about">
-                <div class="full-width">
+            <!--start hero/about section-->
+            <section class="hero" id="about">
+                <div class="content-wrapper">
+                    <div class="hero-content">
                     <h2>who I am.</h2>
-                    <img src="img/portrait.jpg" alt="selfie" />
-                </div>
-                    <div class="fourth-width">
+                    <figure><img src="img/portrait_1.jpg" alt="selfie" /></figure>
+                    </div>
+                    <div class="hero-content-items">
+                    <article class="hero-content-items">
                         <i class="fas fa-sitemap"></i>
                         <p>I pride myself on my dedication, integrity, and drive necessary to plan, solve, and create for the ever-evolving Web. </p>
-                    </div>
-                    <div class="fourth-width">
+                    </article>
+                    <article class="hero-content-items">
                         <i class="fas fa-university"></i>
-                        <p>With a bachelor’s in History, a commitment to yoga, and deep love for the arts, I have a unique and conscientious perspective </p>
-                    </div>
-                    <div class="fourth-width">
+                        <p>With a bachelor’s in History, a commitment to yoga, and deep love for the arts, I have a unique and conscientious perspective.</p>
+                    </article>
+                    <article class="hero-content-items">
                             <i class="far fa-file-code"></i>
-                        <p>Having several years' experience with HTML and CSS, my code is consistently organized and functional. I have a knack for finding solutions.</p> 
-                    </div>
-                    <div class="fourth-width">
+                        <p>Having several years' experience with HTML, CSS, and JavaScript, my code is consistently organized and functional. I have a knack for finding solutions.</p> 
+                    </article>
+                    <article class="hero-content-items">
                         <i class="fas fa-code-branch"></i>
                         <p>I believe the ability to seamlessly collaborate with others is a valuable tool for creating and sustaining unique and genuine content.</p>
-                    </div>
+                    </article>
+                    </div>                
+                </div>
             </section>
-            <section id="work">
-                <div class="full-width"><h2>what I do.</h2><br /></div>
-                <div class="third-width">
-                    <a href="https://alexiscodes.tech" target="_blank"><img src="img/jubilee-thumbnail.png" alt="html/css webpage project thumbnail" /></a>
-                    <p>HTML/CSS webpage project</p>
+
+            <!--start folio section-->
+            <section class="work-content" id="work">
+                <div class="content-wrapper">
+                    <h2>what I do.</h2><br />
+                <div class="work-content-items"></div>
+                <article class="work-content-items">
+                    <a href="class-project/index.html" target="_blank"><img src="img/unplugged-thumbnail.jpg" alt="html/css webpage project thumbnail" /></a>
+                    <p>Responsive web design project (HTML/CSS)</p>
+                </article>
+                <article class="work-content-items">
+                    <a href="rogue-pickings/index.html" target="_blank"><img src="img/rogue-pickings-thumbnail.jpg" alt="PSD design comp project thumbnail" /></a>
+                    <p>Photoshop design comp (HTML/CSS)<br /> webpage project</p>
+                </article>
+                <article class="work-content-items">
+                    <a href="magicEightBall/index.html" target="_blank"><img src="img/magic-eight-ball-thumbnail.jpg" alt="magic-eight-ball javascript thumbnail" /></a>
+                    <p>JavaScript/jQuery Magic Eight Ball Game</p>
+                </article>
+                <article class="work-content-items">
+                    <a href="lolCatClock/index.html" target="_blank"><img src="img/lol.jpg"  alt="JavaScriipt lolCat clock thumbnail"/></a>
+                    <p>JavaScript interactive clock project</p>
+                </article>
                 </div>
-                <div class="third-width">
-                    <a href="rogue-pickings/rogue-pickings.html" target="_blank"><img src="img/rogue-pickings-thumbnail.png" alt="PSD design comp project thumbnail" /></a>
-                    <p>Photoshop design comp<br /> webpage project</p>
-                </div>
-                <div class="third-width">
-                    <a href="#" target="blank"><img src="img/holstee-thumbnail.png" alt="html/css project thumbnail" /></a>
-                    <p>HTML/CSS practice project</p>
-                </div>
+            </div>
             </section>
         </main>
+        
+        <!--start footer-->
         <footer id="contact">
-            <div class="full-width">
+            <div class="content-wrapper">
+            <div class="contact-content">
                 <h2>connect with me.</h2>
+                <h4 id="condensed">want to chat<br /> or meet up?</h4>
             </div>
-            <div class="half-width">
-                <p id="condensed">want to chat<br /> or meet up?</p>
-            </div>
-            <div class="half-width">
-                <a href="https://github.com/alexis-astolfi" target="_blank"><i class="fab fa-github-square"></i></a> <a href="mailto:alexis.astolfi@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a> <br />
-                <a href="https://www.linkedin.com/in/alexisbastolfi/" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="Tel:407-314-8614"><i class="fas fa-phone-square"></i></a>
+            <div class="contact-content-items">
+                <p>
+                <a href="https://github.com/alexis-astolfi" target="_blank"><i class="fab fa-github-square"></i></a>
+                </p>
+                <p> 
+                <a href="mailto:alexis.astolfi@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a> <br />
+                </p>
+                <p>
+                <a href="https://www.linkedin.com/in/alexisbastolfi/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                </p>
+                <p>
+                <a href="Tel:407-314-8614"><i class="fas fa-phone-square"></i></a>
+                </p>
             </div>
             </div>
         </footer>
+
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
     </body> 
 </html>
