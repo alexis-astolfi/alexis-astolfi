@@ -207,7 +207,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    width: 80%;
+    width: 100%;
 }
 
 header nav ul {
@@ -360,7 +360,7 @@ footer .fas {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap
+    flex-flow: column wrap;
 }
 
 
@@ -575,9 +575,7 @@ footer .fas {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    flex-basis: 50%;
-  }
-
+    flex-basis: 35%;
 
 
 }
